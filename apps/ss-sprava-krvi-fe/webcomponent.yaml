@@ -1,0 +1,14 @@
+apiVersion: fe.milung.eu/v1
+kind: WebComponent
+metadata:
+  name: ss-sprava-krvi-app
+spec:
+  module-uri: http://ss-sprava-krvi-fe.wac-hospital/build/sprava-krvi-fe.esm.js # TODO: my-component -> actual component
+  navigation:
+    - element: sprava-krvi-app # TODO
+      path:  sprava-krvi-app # TODO
+      title: TMP title # TODO
+      details: TMP detail # TODO
+  preload: false                    
+  proxy: true                       
+  hash-suffix: v1alpha1             
