@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: ss-sprava-krvi-fe-deployment
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
         pod: ss-sprava-krvi-fe-label
