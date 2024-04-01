@@ -8,3 +8,6 @@ commonLabels:
 
 resources:
 - ../../../apps/ss-sprava-krvi-fe
+
+components:
+- ../../../components/version-developers

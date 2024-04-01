@@ -1,0 +1,14 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImagePolicy
+metadata:
+  name: sprava-krvi-fe
+  namespace: wac-hospital
+spec:
+  imageRepositoryRef:
+    name: sprava-krvi-fe
+  filterTags:
+      pattern: "main.*"
+  policy:
+   alphabetical:
+     order: asc
+     
