@@ -8,5 +8,5 @@ images:
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
   newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
 - name: sykoramarek/sprava-krvi-webapi
-  newName: sykoramarek/sprava-krvi-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+  newName: sykoramarek/sprava-krvi-webapi # {"$imagepolicy":  "wac-hospital:sprava-krvi-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:sprava-krvi-webapi:tag"}
