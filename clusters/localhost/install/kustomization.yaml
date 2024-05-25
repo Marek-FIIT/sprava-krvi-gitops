@@ -8,6 +8,11 @@ commonLabels:
 
 resources:
 - ../../../apps/ss-sprava-krvi-fe
+- ../../../apps/ss-sprava-krvi-webapi
 
 components:
 - ../../../components/version-developers
+- https://github.com/Marek-FIIT/sprava-krvi-webapi//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/sprava-krvi-webapi.service.yaml

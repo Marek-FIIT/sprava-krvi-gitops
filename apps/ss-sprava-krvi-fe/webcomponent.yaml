@@ -9,6 +9,9 @@ spec:
       path:  sprava-krvi-app # TODO
       title: Sprava krvi
       details: Schmidt a Sykora (prefix ss-)
+      attributes:
+        - name: api-base
+          value: http://localhost:30081/api
   preload: false                    
   proxy: true                       
   hash-suffix: v1alpha1             
