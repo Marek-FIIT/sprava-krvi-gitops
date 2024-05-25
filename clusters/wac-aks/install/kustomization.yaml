@@ -8,6 +8,7 @@ commonLabels:
   app.kubernetes.io/name: ss-sprava-krvi
 resources:
 - ../../../apps/ss-sprava-krvi-fe
+- ../../../apps/ss-sprava-krvi-webapi
 
 components:
 - ../../../components/version-release

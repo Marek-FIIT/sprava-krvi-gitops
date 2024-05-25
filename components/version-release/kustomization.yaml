@@ -4,6 +4,9 @@ images:
 - name: sykoramarek/sprava-krvi-fe
   newName: sykoramarek/sprava-krvi-fe
   newTag: 1.0.0
+- name: sykoramarek/sprava-krvi-webapi
+  newName: sykoramarek/sprava-krvi-webapi
+  newTag: 1.0.1
 
 replacements:
  - targets:
