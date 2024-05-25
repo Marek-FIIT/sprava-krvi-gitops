@@ -9,6 +9,7 @@ commonLabels:
 resources:
 - ../../../apps/ss-sprava-krvi-fe
 - ../../../apps/ss-sprava-krvi-webapi
+- ../../../apps/mongo-express
 
 components:
 - ../../../components/version-developers
