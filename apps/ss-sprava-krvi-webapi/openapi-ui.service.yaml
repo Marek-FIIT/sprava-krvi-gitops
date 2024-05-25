@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: ss-openapi-ui
+spec:
+  selector:
+    pod: s-sprava-krvi-webapi-label
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80
+    targetPort: 8081
+    
